@@ -4,7 +4,7 @@ import json
 
 # Create your views here.
 def index(request):    
-    with open('jianli/data.json', 'rb') as f:
+    with open('jianli/data.json', 'r') as f:
         data = json.load(f)
     dic = {}
     for k, v in data.items():
