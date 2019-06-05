@@ -1,0 +1,84 @@
+file:guicorn.service
+nano /etc/systemd/system/guicorn.service
+ 
+[Unit]
+Description=gunicorn daemon
+After=network.target
+
+[Service]
+User=ubuntu
+Group=www-data
+WorkingDirectory=/home/ubuntu/cv/cv
+ExecStart=/home/ubuntu/cv/env/bin/gunicorn --access-logfile - --workers 3 --bind unix:/home/ubuntu/cv/cv/jl.sock JL.wsgi:application
+
+[Install]
+WantedBy=multi-user.target
+
+
+
+file:jl
+nano /etc/nginx/sites-avaliable/jl
+ln -s /etc/nginx/sites-avaliable/jl /etc/nginx sites-enable/
+
+server {
+    listen 80;
+    server_name www.taoorwell.top;
+
+    location = /favicon.ico { access_log off; log_not_found off; }
+    location /static/ {
+        root /home/ubuntu/cv/cv/jianli;
+    }
+
+    location / {
+        include proxy_params;
+        proxy_pass http://unix:/home/ubuntu/cv/cv/jl.sock;
+    }
+}
+
+
+cmd check:
+sudo su
+systemctl start gunicorn/nginx
+systemctl stop gunicorn/nginx
+systemctl restart guicorn/nginx
+systemctl deamon-reload
+
+systemctl status gunicorn/nginx
+journalctl -u gunicorn/nginx
+
+nginx -t
+
+ufw -h
+gunicorn -h
+
+
+remove packages
+apt-get remove P
+apt-get purge P
+apt-get autoremove
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:x="adobe:ns:meta/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="output3"
+   width="647"
+   height="486"
+   viewBox="0 0 647.00003 486"
+   version="1.1"
+   sodipodi:docname="Fig.4.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview84"
+     showgrid="true"
+     inkscape:zoom="0.70245599"
+     inkscape:cx="508.8892"
+     inkscape:cy="308.05055"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="output3"
+     units="px"
+     height="150mm">
+    <inkscape:grid
+       type="xygrid"
+       id="grid86" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata2">
+<?xpacket begin="$" id="W5M0MpCehiHzreSzNTczkc9d"?>    <x:xmpmeta
+       x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+      <metadata>
+        <rdf:RDF>
+          <rdf:Description
+             rdf:about="" />
+          <cc:Work
+             rdf:about="">
+            <dc:format>image/svg+xml</dc:format>
+            <dc:type
+               rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+            <dc:title></dc:title>
+          </cc:Work>
+        </rdf:RDF>
+      </metadata>
+    </x:xmpmeta>
+<?xpacket end="w"?>  </metadata>
+  <defs
+     id="defs6">
+    <style
+       id="style4">
+      .cls-1, .cls-19, .cls-3, .cls-4 {
+        font-size: 200px;
+      }
+
+      .cls-1 {
+        fill: #050000;
+      }
+
+      .cls-1, .cls-15, .cls-19, .cls-3 {
+        font-family: STSong;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-4 {
+        font-family: Times New Roman;
+      }
+
+      .cls-5 {
+        fill: #f26522;
+      }
+
+      .cls-6 {
+        fill: red;
+      }
+
+      .cls-7 {
+        fill: #f69679;
+      }
+
+      .cls-8 {
+        fill: #00aeef;
+      }
+
+      .cls-9 {
+        fill: #00a651;
+      }
+
+      .cls-10 {
+        fill: #ff0;
+      }
+
+      .cls-11 {
+        fill: #36aa03;
+      }
+
+      .cls-12 {
+        fill: #f7941d;
+      }
+
+      .cls-13 {
+        fill: #959595;
+      }
+
+      .cls-14 {
+        fill: #39b54a;
+      }
+
+      .cls-15 {
+        font-size: 300px;
+      }
+
+      .cls-16 {
+        fill: #ebebeb;
+      }
+
+      .cls-17 {
+        fill: #acacac;
+      }
+
+      .cls-18 {
+        fill: #b7b7b7;
+      }
+
+      .cls-19 {
+        writing-mode: tb;
+        glyph-orientation-vertical: 0;
+      }
+    </style>
+  </defs>
+  <text
+     id="_"
+     data-name="②"
+     class="cls-1"
+     x="206.25441"
+     y="424.19266"
+     style="font-size:13.00171375px;font-family:STSong;fill:#050000;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">②</text>
+  <text
+     id="_2"
+     data-name="①"
+     class="cls-1"
+     x="205.84419"
+     y="47.307117"
+     style="font-size:13.00171375px;font-family:STSong;fill:#050000;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">①</text>
+  <text
+     id="_1D-CNN_特征提取器"
+     data-name="1D-CNN 特征提取器"
+     class="cls-1"
+     x="224.57224"
+     y="47.59668"
+     style="font-size:13.00171375px;font-family:STSong;fill:#050000;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">1D-CNN 特征提取器</text>
+  <text
+     id="_2D-CNN_特征提取器"
+     data-name="2D-CNN 特征提取器"
+     class="cls-1"
+     x="223.8575"
+     y="425.03656"
+     style="font-size:13.00171375px;font-family:STSong;fill:#050000;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">2D-CNN 特征提取器</text>
+  <path
+     id="形状_1"
+     data-name="形状 1"
+     class="cls-2"
+     d="m 447.2799,235.05888 0.008,-1.06408 21.41748,0.15762 -2.11164,-2.14345 10.61661,2.73868 -10.65601,2.58173 2.14277,-2.1122 z"
+     inkscape:connector-curvature="0"
+     style="fill-rule:evenodd;stroke-width:0.06500857" />
+  <path
+     id="形状_1-2"
+     data-name="形状 1"
+     class="cls-2"
+     d="m 514.19363,235.19189 0.008,-1.06407 21.41748,0.15761 -2.11162,-2.14344 10.61659,2.73867 -10.656,2.58172 2.14277,-2.1122 z"
+     inkscape:connector-curvature="0"
+     style="fill-rule:evenodd;stroke-width:0.06500857" />
+  <text
+     id="堆叠"
+     class="cls-3"
+     x="455.20908"
+     y="226.66519"
+     style="font-size:13.00171375px;font-family:STSong;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">堆叠</text>
+  <text
+     id="全连接"
+     class="cls-3"
+     x="517.42218"
+     y="226.08005"
+     style="font-size:13.00171375px;font-family:STSong;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">全连接</text>
+  <path
+     id="形状_1-3"
+     data-name="形状 1"
+     class="cls-2"
+     d="m 567.8263,234.46034 0.01,-1.06407 25.82756,0.15827 -2.54627,-2.14413 12.80319,2.73868 -12.85092,2.58173 2.58451,-2.1122 z"
+     inkscape:connector-curvature="0"
+     style="fill-rule:evenodd;stroke-width:0.06500857" />
+  <text
+     id="Softmax"
+     class="cls-4"
+     x="574.7583"
+     y="225.739"
+     style="font-size:13.00171375px;font-family:'Times New Roman';stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">Softmax</text>
+  <path
+     id="形状_1-4"
+     data-name="形状 1"
+     class="cls-2"
+     d="m 184.45444,134.50332 0.008,-1.06409 21.41749,0.15764 -2.11162,-2.14349 10.61658,2.73869 -10.65599,2.58173 2.14277,-2.11286 z"
+     inkscape:connector-curvature="0"
+     style="fill-rule:evenodd;stroke-width:0.06500857" />
+  <path
+     id="形状_1-5"
+     data-name="形状 1"
+     class="cls-2"
+     d="m 121.67118,135.5009 0.008,-1.0641 21.41748,0.15763 -2.11162,-2.14346 10.61659,2.73868 -10.65598,2.58173 2.14275,-2.11221 z"
+     inkscape:connector-curvature="0"
+     style="fill-rule:evenodd;stroke-width:0.06500857" />
+  <path
+     id="形状_1-6"
+     data-name="形状 1"
+     class="cls-2"
+     d="m 121.86182,335.81396 0.008,-1.06406 21.41748,0.15828 -2.11163,-2.14411 10.61659,2.73867 -10.65599,2.58173 2.14277,-2.1122 z"
+     inkscape:connector-curvature="0"
+     style="fill-rule:evenodd;stroke-width:0.06500857" />
+  <path
+     id="形状_1-7"
+     data-name="形状 1"
+     class="cls-2"
+     d="m 320.95084,135.03536 0.008,-1.06409 21.41748,0.15829 -2.11164,-2.14414 10.6166,2.73868 -10.65599,2.58173 2.14276,-2.11219 z"
+     inkscape:connector-curvature="0"
+     style="fill-rule:evenodd;stroke-width:0.06500857" />
+  <path
+     id="形状_1-8"
+     data-name="形状 1"
+     class="cls-2"
+     d="m 378.07852,135.63391 0.006,-1.06409 13.41388,0.15761 -1.32238,-2.14344 6.64943,2.73868 -6.67422,2.58172 1.3421,-2.11221 z"
+     inkscape:connector-curvature="0"
+     style="fill-rule:evenodd;stroke-width:0.06500857" />
+  <path
+     id="形状_1-9"
+     data-name="形状 1"
+     class="cls-2"
+     d="m 183.18353,336.213 0.008,-1.06408 21.41747,0.15763 -2.11162,-2.14346 10.6166,2.73867 -10.656,2.58173 2.14277,-2.1122 z"
+     inkscape:connector-curvature="0"
+     style="fill-rule:evenodd;stroke-width:0.06500857" />
+  <path
+     id="形状_1-10"
+     data-name="形状 1"
+     class="cls-2"
+     d="m 322.66658,336.07999 0.008,-1.06407 21.41749,0.15762 -2.11164,-2.14346 10.6166,2.73868 -10.65599,2.58172 2.14277,-2.11219 z"
+     inkscape:connector-curvature="0"
+     style="fill-rule:evenodd;stroke-width:0.06500857" />
+  <path
+     id="形状_1-11"
+     data-name="形状 1"
+     class="cls-2"
+     d="m 378.20561,335.54796 0.005,-1.06409 12.73206,0.1583 -1.25503,-2.14414 6.31136,2.73869 -6.33488,2.58172 1.2741,-2.11218 z"
+     inkscape:connector-curvature="0"
+     style="fill-rule:evenodd;stroke-width:0.06500857" />
+  <path
+     id="形状_1-12"
+     data-name="形状 1"
+     class="cls-2"
+     d="m 237.83292,135.03536 0.005,-1.06409 13.00528,0.15829 -1.28235,-2.14414 6.44672,2.73868 -6.47087,2.58173 1.30143,-2.11219 z"
+     inkscape:connector-curvature="0"
+     style="fill-rule:evenodd;stroke-width:0.06500857" />
+  <path
+     id="形状_1-13"
+     data-name="形状 1"
+     class="cls-2"
+     d="m 279.83669,135.10186 0.006,-1.06408 13.00464,0.1583 -1.28236,-2.14413 6.44672,2.73867 -6.47086,2.58173 1.30142,-2.1122 z"
+     inkscape:connector-curvature="0"
+     style="fill-rule:evenodd;stroke-width:0.06500857" />
+  <path
+     id="形状_1-14"
+     data-name="形状 1"
+     class="cls-2"
+     d="m 238.53193,335.08243 0.005,-1.06409 13.00529,0.15761 -1.28236,-2.14346 6.44672,2.73868 -6.47086,2.58173 1.30141,-2.11219 z"
+     inkscape:connector-curvature="0"
+     style="fill-rule:evenodd;stroke-width:0.06500857" />
+  <path
+     id="形状_1-15"
+     data-name="形状 1"
+     class="cls-2"
+     d="m 280.5357,335.14892 0.006,-1.06407 13.00463,0.15761 -1.28235,-2.14345 6.44672,2.73867 -6.47023,2.58174 1.30078,-2.11287 z"
+     inkscape:connector-curvature="0"
+     style="fill-rule:evenodd;stroke-width:0.06500857" />
+  <rect
+     id="矩形_4"
+     data-name="矩形 4"
+     class="cls-5"
+     x="612.56244"
+     y="200.48561"
+     width="4.3846607"
+     height="11.305851"
+     style="fill:#f26522;stroke-width:0.06500857" />
+  <rect
+     id="矩形_4-2"
+     data-name="矩形 4"
+     class="cls-6"
+     x="612.6261"
+     y="256.94836"
+     width="4.3846607"
+     height="11.305851"
+     style="fill:#ff0000;stroke-width:0.06500857" />
+  <rect
+     id="矩形_4-3"
+     data-name="矩形 4"
+     class="cls-7"
+     x="612.6261"
+     y="245.57597"
+     width="4.3846607"
+     height="11.305851"
+     style="fill:#f69679;stroke-width:0.06500857" />
+  <rect
+     id="矩形_4-4"
+     data-name="矩形 4"
+     class="cls-8"
+     x="612.6261"
+     y="234.33667"
+     width="4.3846607"
+     height="11.305851"
+     style="fill:#00aeef;stroke-width:0.06500857" />
+  <rect
+     id="矩形_4-5"
+     data-name="矩形 4"
+     class="cls-9"
+     x="612.6261"
+     y="223.03081"
+     width="4.3846607"
+     height="11.305851"
+     style="fill:#00a651;stroke-width:0.06500857" />
+  <rect
+     id="矩形_4-6"
+     data-name="矩形 4"
+     class="cls-10"
+     x="612.56244"
+     y="211.65846"
+     width="4.3846607"
+     height="11.305851"
+     style="fill:#ffff00;stroke-width:0.06500857" />
+  <rect
+     id="矩形_5"
+     data-name="矩形 5"
+     class="cls-11"
+     x="490.74521"
+     y="116.68931"
+     width="12.391432"
+     height="233.4326"
+     style="fill:#36aa03;stroke-width:0.06500857" />
+  <rect
+     id="矩形_5-2"
+     data-name="矩形 5"
+     class="cls-11"
+     x="548"
+     y="162.11223"
+     width="12.391432"
+     height="155.88776"
+     style="fill:#36aa03;stroke-width:0.06500857" />
+  <rect
+     id="矩形_5-3"
+     data-name="矩形 5"
+     class="cls-12"
+     x="159.2903"
+     y="62.221672"
+     width="21.859756"
+     height="153.62657"
+     style="fill:#f7941d;stroke-width:0.06500857" />
+  <rect
+     id="矩形_5-4"
+     data-name="矩形 5"
+     class="cls-12"
+     x="159.60803"
+     y="259.9411"
+     width="21.859756"
+     height="153.62657"
+     style="fill:#f7941d;stroke-width:0.06500857" />
+  <rect
+     id="矩形_5-5"
+     data-name="矩形 5"
+     class="cls-13"
+     x="215.65543"
+     y="62.554214"
+     width="21.859756"
+     height="153.62657"
+     style="fill:#959595;stroke-width:0.06500857" />
+  <rect
+     id="矩形_5-6"
+     data-name="矩形 5"
+     class="cls-13"
+     x="215.65543"
+     y="259.80807"
+     width="21.859756"
+     height="153.62657"
+     style="fill:#959595;stroke-width:0.06500857" />
+  <rect
+     id="矩形_5-7"
+     data-name="矩形 5"
+     class="cls-13"
+     x="351.38922"
+     y="62.421204"
+     width="21.859756"
+     height="153.62657"
+     style="fill:#959595;stroke-width:0.06500857" />
+  <rect
+     id="矩形_5-8"
+     data-name="矩形 5"
+     class="cls-12"
+     x="298.70984"
+     y="63.219254"
+     width="21.859756"
+     height="153.62657"
+     style="fill:#f7941d;stroke-width:0.06500857" />
+  <rect
+     id="矩形_5-9"
+     data-name="矩形 5"
+     class="cls-12"
+     x="299.28171"
+     y="259.34253"
+     width="21.859756"
+     height="153.62657"
+     style="fill:#f7941d;stroke-width:0.06500857" />
+  <rect
+     id="矩形_5-10"
+     data-name="矩形 5"
+     class="cls-13"
+     x="352.59665"
+     y="259.60858"
+     width="21.859756"
+     height="153.62657"
+     style="fill:#959595;stroke-width:0.06500857" />
+  <rect
+     id="矩形_5-11"
+     data-name="矩形 5"
+     class="cls-14"
+     x="414.80798"
+     y="64.15033"
+     width="12.391432"
+     height="153.62657"
+     style="fill:#39b54a;stroke-width:0.06500857" />
+  <text
+     id="_..."
+     data-name="..."
+     class="cls-15"
+     x="266.94028"
+     y="132.76312"
+     style="font-size:19.50257111px;font-family:STSong;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">...</text>
+  <text
+     id="_...-2"
+     data-name="..."
+     class="cls-15"
+     x="268.30539"
+     y="328.17914"
+     style="font-size:19.50257111px;font-family:STSong;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">...</text>
+  <rect
+     id="矩形_5-12"
+     data-name="矩形 5"
+     class="cls-14"
+     x="413.66418"
+     y="259.40903"
+     width="12.391432"
+     height="153.62657"
+     style="fill:#39b54a;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2"
+     data-name="矩形 2"
+     class="cls-16"
+     x="32.834137"
+     y="284.34839"
+     width="63.545807"
+     height="66.505013"
+     style="fill:#ebebeb;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-2"
+     data-name="矩形 2"
+     class="cls-17"
+     x="34.93116"
+     y="287.14163"
+     width="63.545807"
+     height="66.505013"
+     style="fill:#acacac;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-3"
+     data-name="矩形 2"
+     class="cls-16"
+     x="37.66362"
+     y="290.33389"
+     width="63.545807"
+     height="66.505013"
+     style="fill:#ebebeb;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-4"
+     data-name="矩形 2"
+     class="cls-17"
+     x="40.205463"
+     y="293.85864"
+     width="63.545807"
+     height="66.505013"
+     style="fill:#acacac;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-5"
+     data-name="矩形 2"
+     class="cls-16"
+     x="42.302475"
+     y="297.58292"
+     width="63.545807"
+     height="66.505013"
+     style="fill:#ebebeb;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-6"
+     data-name="矩形 2"
+     class="cls-17"
+     x="44.526577"
+     y="300.70868"
+     width="63.545807"
+     height="66.505013"
+     style="fill:#acacac;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-7"
+     data-name="矩形 2"
+     class="cls-16"
+     x="46.623585"
+     y="304.49945"
+     width="63.545807"
+     height="66.505013"
+     style="fill:#ebebeb;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-8"
+     data-name="矩形 2"
+     class="cls-17"
+     x="48.91124"
+     y="307.75818"
+     width="63.545807"
+     height="66.505013"
+     style="fill:#acacac;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-9"
+     data-name="矩形 2"
+     class="cls-16"
+     x="51.198875"
+     y="310.75089"
+     width="63.545807"
+     height="66.505013"
+     style="fill:#ebebeb;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-10"
+     data-name="矩形 2"
+     class="cls-17"
+     x="53.550091"
+     y="313.4111"
+     width="63.545807"
+     height="66.505013"
+     style="fill:#acacac;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-11"
+     data-name="矩形 2"
+     class="cls-16"
+     x="55.52"
+     y="316.27087"
+     width="63.545807"
+     height="66.505013"
+     style="fill:#ebebeb;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-12"
+     data-name="矩形 2"
+     class="cls-17"
+     x="57.42638"
+     y="318.93106"
+     width="63.545807"
+     height="66.505013"
+     style="fill:#acacac;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-13"
+     data-name="矩形 2"
+     class="cls-16"
+     x="52.152073"
+     y="116.75581"
+     width="6.9900393"
+     height="7.3820558"
+     style="fill:#ebebeb;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-14"
+     data-name="矩形 2"
+     class="cls-18"
+     x="55.202271"
+     y="119.48254"
+     width="6.9900393"
+     height="7.3820558"
+     style="fill:#b7b7b7;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-15"
+     data-name="矩形 2"
+     class="cls-16"
+     x="57.871197"
+     y="122.34222"
+     width="6.9900393"
+     height="7.3820558"
+     style="fill:#ebebeb;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-16"
+     data-name="矩形 2"
+     class="cls-18"
+     x="60.540119"
+     y="125.06895"
+     width="6.9900393"
+     height="7.3820558"
+     style="fill:#b7b7b7;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-17"
+     data-name="矩形 2"
+     class="cls-16"
+     x="63.272598"
+     y="128.06166"
+     width="6.9900393"
+     height="7.3820558"
+     style="fill:#ebebeb;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-18"
+     data-name="矩形 2"
+     class="cls-18"
+     x="65.75087"
+     y="130.65535"
+     width="6.9900393"
+     height="7.3820558"
+     style="fill:#b7b7b7;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-19"
+     data-name="矩形 2"
+     class="cls-16"
+     x="68.038513"
+     y="133.04956"
+     width="6.9900393"
+     height="7.3820558"
+     style="fill:#ebebeb;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-20"
+     data-name="矩形 2"
+     class="cls-18"
+     x="70.898071"
+     y="135.90927"
+     width="6.9900393"
+     height="7.3820558"
+     style="fill:#b7b7b7;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-21"
+     data-name="矩形 2"
+     class="cls-16"
+     x="73.694099"
+     y="138.83548"
+     width="6.9900393"
+     height="7.3820558"
+     style="fill:#ebebeb;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-22"
+     data-name="矩形 2"
+     class="cls-17"
+     x="76.108833"
+     y="141.42915"
+     width="6.9900393"
+     height="7.3820558"
+     style="fill:#acacac;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-23"
+     data-name="矩形 2"
+     class="cls-16"
+     x="78.777763"
+     y="144.15585"
+     width="6.9900393"
+     height="7.3820558"
+     style="fill:#ebebeb;stroke-width:0.06500857" />
+  <rect
+     id="矩形_2-24"
+     data-name="矩形 2"
+     class="cls-17"
+     x="81.573776"
+     y="147.01558"
+     width="6.9900393"
+     height="7.3820558"
+     style="fill:#acacac;stroke-width:0.06500857" />
+  <text
+     id="_1D卷积"
+     data-name="1D卷积"
+     class="cls-19"
+     x="174.06648"
+     y="111.59472"
+     style="font-size:13.00171375px;font-family:STSong;writing-mode:tb-rl;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">1D卷积</text>
+  <text
+     id="_1D池化"
+     data-name="1D池化"
+     class="cls-19"
+     x="230.94861"
+     y="111.98515"
+     style="font-size:13.00171375px;font-family:STSong;writing-mode:tb-rl;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">1D池化</text>
+  <text
+     id="_1D池化-2"
+     data-name="1D池化"
+     class="cls-19"
+     x="371.62717"
+     y="111.39999"
+     style="font-size:13.00171375px;font-family:STSong;writing-mode:tb-rl;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">1D池化</text>
+  <text
+     id="_2D池化"
+     data-name="2D池化"
+     class="cls-19"
+     x="231.01376"
+     y="309.28613"
+     style="font-size:13.00171375px;font-family:STSong;writing-mode:tb-rl;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">2D池化</text>
+  <text
+     id="_2D池化-2"
+     data-name="2D池化"
+     class="cls-19"
+     x="373.1225"
+     y="309.48077"
+     style="font-size:13.00171375px;font-family:STSong;writing-mode:tb-rl;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">2D池化</text>
+  <text
+     id="_1D卷积-2"
+     data-name="1D卷积"
+     class="cls-19"
+     x="316.88995"
+     y="111.39999"
+     style="font-size:13.00171375px;font-family:STSong;writing-mode:tb-rl;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">1D卷积</text>
+  <text
+     id="_2D卷积"
+     data-name="2D卷积"
+     class="cls-19"
+     x="173.61151"
+     y="309.87115"
+     style="font-size:13.00171375px;font-family:STSong;writing-mode:tb-rl;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">2D卷积</text>
+  <text
+     id="_2D卷积-2"
+     data-name="2D卷积"
+     class="cls-19"
+     x="317.93024"
+     y="308.70099"
+     style="font-size:13.00171375px;font-family:STSong;writing-mode:tb-rl;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">2D卷积</text>
+  <text
+     id="堆叠-0"
+     class="cls-3"
+     x="59.081776"
+     y="428.39395"
+     style="font-size:13.00171375px;font-family:STSong;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">输入层</text>
+  <text
+     id="堆叠-0-5"
+     class="cls-3"
+     x="413.95062"
+     y="436.86008"
+     style="font-size:13.00171375px;font-family:STSong;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">特征2</text>
+  <text
+     id="堆叠-0-5-2"
+     class="cls-3"
+     x="415.05884"
+     y="39.668011"
+     style="font-size:13.00171375px;font-family:STSong;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">特征1</text>
+  <text
+     id="堆叠-0-5-9"
+     class="cls-3"
+     x="484.71344"
+     y="365.69254"
+     style="font-size:13.00171375px;font-family:STSong;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">融合特征</text>
+  <text
+     id="堆叠-0-5-9-9"
+     class="cls-3"
+     x="602.46655"
+     y="292.39713"
+     style="font-size:13.00171375px;font-family:STSong;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">输出层</text>
+  <text
+     id="堆叠-0-5-9-2"
+     class="cls-3"
+     x="544.93689"
+     y="335.26514"
+     style="font-size:13.00171375px;font-family:STSong;stroke-width:0.06500857"
+     transform="scale(0.97749895,1.023019)">全连接层</text>
+  <path
+     style="fill:none;stroke:#ff0000;stroke-width:0.73980647px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 149.00699,51.881828 c 0,0 0,-26.45328 18.62083,-26.45328 18.62084,0 18.62084,0 18.62084,0 H 366.2501 c 0,0 12.41389,0 12.41389,26.45328 0,26.453296 0,26.453296 0,26.453296 V 219.41928 c 0,0 0,17.63552 -12.41389,17.63552 -12.41389,0 -204.82923,0 -204.82923,0 0,0 -12.41388,0 -12.41388,-17.63552 0,-17.63552 0,-17.63552 0,-17.63552 V 51.881828"
+     id="path904"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;stroke:#ff0000;stroke-width:0.74243373px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="m 150.24837,269.25146 c 0,0 0,-26.6415 18.62084,-26.6415 18.62084,0 18.62084,0 18.62084,0 h 180.00144 c 0,0 12.41389,0 12.41389,26.6415 0,26.6415 0,26.6415 0,26.6415 v 142.088 c 0,0 0,17.76101 -12.41389,17.76101 -12.41389,0 -204.82923,0 -204.82923,0 0,0 -12.41389,0 -12.41389,-17.76101 0,-17.76099 0,-17.76099 0,-17.76099 V 269.25146"
+     id="path904-8"
+     inkscape:connector-curvature="0" />
+</svg>
