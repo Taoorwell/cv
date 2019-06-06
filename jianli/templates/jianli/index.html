@@ -101,6 +101,7 @@
 			</div>
 			<div class="col-sm-5 pro-text">
 				<h1>{{ name }}</h1>
+				<h1>{{ English_name }}</h1>
 				<p>{{ one_sentence_introduction }}</p>
 			</div>
 			<div class="clearfix"></div>
@@ -198,7 +199,7 @@
 <div class="employment">
 	<div class="container">
 		<h3 class="tittle ">科研经验</h3>
-		<p class="abt-para ">我做过什么？</p>
+<!--		<p class="abt-para ">我做过什么？</p>-->
 		{% for pe in project_experience %}
 		<div class="col-md-6 employ-left">
 			<h4>{{ pe.id }}</h4>
@@ -229,8 +230,6 @@
 				</br>
 				{% endfor %}
 			</p>
-
-
 		</div>		
 		{% endfor %}		
 	</div>
@@ -292,7 +291,15 @@
 	</div>
 </div>
 <!-- more skills -->
-
+<div id="finish" class="about">
+	<div class="container">
+		<h3 class="tittle">对老师研究的理解&计划安排</h3>
+		<p class="abt-para">
+			{% for i in research %}
+			{{i}}<br>
+			{% endfor %}
+		</p>
+	</div>
 <!-- contact -->
 <div id="emailme" class="contact">
 	<div class="container">
