@@ -5,7 +5,7 @@ import json
 # Create your views here.
 # # for local 'rb', for aws 'r' Caution Please!!!
 def index(request):    
-    with open('jianli/data.json', 'rb') as f:
+    with open('jianli/data.json', 'r') as f:
         data = json.load(f)
     dic = {}
     for k, v in data.items():
