@@ -19,6 +19,5 @@ from jianli import views as jianli_views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', jianli_views.index, name='jianli_view'),
-    path('en/', jianli_views.index_en, name='jianli_view_en'),
-
+    path('en/', jianli_views.index_en, name='jianli_view_en')
 ]
