@@ -12,3 +12,13 @@ def index(request):
         dic[k] = v
     
     return render(request, 'jianli/index.html', dic)
+
+
+def index_en(request):
+    with open('jianli/data_en.json', 'r') as f:
+        data = json.load(f)
+    dic = {}
+    for k, v in data.items():
+        dic[k] = v
+
+    return render(request, 'jianli/index_en.html', dic)

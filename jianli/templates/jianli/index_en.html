@@ -24,7 +24,7 @@
 		<script type="text/javascript" src="{{ base_dir }}js/easing.js"></script>
 		<script type="text/javascript">
 			jQuery(document).ready(function($) {
-				$(".scroll").click(function(event){		
+				$(".scroll").click(function(event){
 					event.preventDefault();
 					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
 				});
@@ -66,7 +66,7 @@
                     $(this.element).find('.pie-value').text(Math.round(percent) + '%');
                 }
             });
-			
+
 			$('#demo-pie-4').pieChart({
                 barColor: '#10A7AF',
                 trackColor: '#fff',
@@ -87,12 +87,12 @@
 <div class="header-top">
 	<div class="container">
 		<ul>
-			<li><a class="scroll" href="#about"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>简历</a></li>
-			<li><a class="scroll" href="#emailme"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>邮箱</a></li>
+			<li><a class="scroll" href="#about"><span class="glyphicon glyphicon-file" aria-hidden="true"></span>CV</a></li>
+			<li><a class="scroll" href="#emailme"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>EMAIL</a></li>
 <!--			<li><a href="javascript:window.print()"><span class="glyphicon glyphicon-print" aria-hidden="true"></span>打印 简历</a></li>			-->
 		</ul>
 	</div>
-</div>	
+</div>
 <div class="header">
 	<div class="container">
 		<div class="col-md-8 header-left">
@@ -108,9 +108,9 @@
 		</div>
 		<div class="col-md-4 header-right ">
 			<ul class="list-left">
-				<li>电子邮箱：</li>
-				<li>个人网站：</li>
-				<li>电话号码：</li>				
+				<li>EMAIL：</li>
+				<li>WEBSITE：</li>
+				<li>PHONE：</li>
 			</ul>
 			<ul class="list-right">
 				<li><a href="mailto:{{ email }}">{{ email }}</a></li>
@@ -126,7 +126,7 @@
 <!-- about -->
 <div id="about" class="about">
 	<div class="container">
-		<h3 class="tittle">关于我</h3>
+		<h3 class="tittle">ABOUT ME</h3>
 		<p class="abt-para">
 			{% for i in about_me %}
 			{{i}}<br>
@@ -134,7 +134,7 @@
 		</p>
 	</div>
 	<div class="col-md-6 abt-left ">
-		<h2>教育</h2>
+		<h2>EDUCATION</h2>
 				<div class="accordion">
 					{% for edu in edus %}
 					<div class="accordion-section">
@@ -143,7 +143,7 @@
 							<i class="glyphicon glyphicon-chevron-down"></i><div class="clearfix"></div>
 								</a></h5>
 								<div id="{{ edu.href }}" class="accordion-section-content">
-									<h6>荣誉 和 奖励</h6>
+									<h6>HONERS</h6>
 									<ul>
 										{% for honor in edu.honors %}
 										<li><span class="glyphicon glyphicon-ok" aria-hidden="true"></span><a href="#">{{ honor }}</a></li>
@@ -151,7 +151,7 @@
 									</ul>
 								</div>
 					</div>
-					{% endfor %}							
+					{% endfor %}
 				</div>
 
 				<script>
@@ -173,7 +173,7 @@
 										// Add active class to section title
 										jQuery(this).addClass('active');
 										// Open up the hidden content panel
-										jQuery('.accordion ' + currentAttrValue).slideDown(300).addClass('open'); 
+										jQuery('.accordion ' + currentAttrValue).slideDown(300).addClass('open');
 									}
 
 									e.preventDefault();
@@ -187,8 +187,8 @@
 			<div id="demo-pie-{{ skill.id }}" class="pie-title-center" data-percent="{{ skill.score }}"> <span class="pie-value"></span> </div>
 			<h4>{{ skill.name }}</h4>
 		</div>
-		{% endfor %}	
-		
+		{% endfor %}
+
 		</div>
 		<div class="clearfix"></div>
 	</div>
@@ -198,7 +198,7 @@
 <!-- education -->
 <div class="employment">
 	<div class="container">
-		<h3 class="tittle ">科研经验</h3>
+		<h3 class="tittle ">RESEARCH</h3>
 <!--		<p class="abt-para ">我做过什么？</p>-->
 		{% for pe in project_experience %}
 		<div class="col-md-6 employ-left">
@@ -216,13 +216,13 @@
 <!--			<p><a href="{{ pe.show_link }}" target="_blank">演示地址：{{ pe.show_link }}</a></p>-->
 <!--			{% endif %}-->
 			<p>
-				研究内容：<br>
+				CONTEXT：<br>
 				{% for ct in pe.full_content %}
 				{{ ct }}<br>
 				{% endfor %}
 			</p>
 			<p>
-				研究框架图：<br>
+				ARCHITECTURE：<br>
 				{% for img in pe.img %}
 				<a href="#" class="thumbnail">
 					<img src="{{ base_dir }}{{ img }}" alt=" "/>
@@ -230,8 +230,8 @@
 				</br>
 				{% endfor %}
 			</p>
-		</div>		
-		{% endfor %}		
+		</div>
+		{% endfor %}
 	</div>
 </div>
 <!-- education -->
@@ -239,7 +239,7 @@
 <!-- more skills -->
 <div class="more">
 	<div class="container">
-		<h3 class="tittle ">技能</h3>
+		<h3 class="tittle ">SKILLS</h3>
 		<div class="col-md-6 skill-left ">
 			{% for skill in detail_skills %}
 			<div class="progress">
@@ -252,7 +252,7 @@
 				  <p>{{ skill.score }}%</p>
 				  <div class="clearfix"></div>
 			</div>
-			{% endfor %}			
+			{% endfor %}
 		</div>
 
 		<div class="col-md-6 skill-right ">
@@ -264,7 +264,7 @@
 						<span class="{{skill.icon}}" aria-hidden="true"></span>
 					</div>
 					<div class="col-sm-9 more-right">
-						<h4>关于{{ skill.name }}</h4>
+						<h4>About {{ skill.name }}</h4>
 						<p>{{ skill.content }}</p>
 					</div>
 					<div class="clearfix"></div>
@@ -272,7 +272,7 @@
 				{% else %}
 				<div class="more-gds yes_marg">
 					<div class="col-sm-9 more-right2">
-						<h4>关于{{ skill.name }}</h4>
+						<h4>About {{ skill.name }}</h4>
 						<p>{{ skill.content }}</p>
 					</div>
 					<div class="col-sm-3 more-left">
@@ -281,11 +281,11 @@
 					<div class="clearfix"></div>
 				</div>
 				{% endif %}
-				{% endfor %}				
+				{% endfor %}
 					<div class="clearfix"></div>
 				</div>
 			</div>
-			
+
 		</div>
 		<div class="clearfix"></div>
 	</div>
@@ -293,7 +293,7 @@
 <!-- more skills -->
 <div id="finish" class="about">
 	<div class="container">
-		<h3 class="tittle">对老师研究的理解&计划安排</h3>
+		<h3 class="tittle">RESEARCH PROPOSAL</h3>
 		<p class="abt-para">
 			{% for i in research %}
 			{{i}}<br>
@@ -303,11 +303,11 @@
 <!-- contact -->
 <div id="emailme" class="contact">
 	<div class="container">
-		<h3 class="tittle">联系</h3>
+		<h3 class="tittle">CONTACT</h3>
 		<div class="col-md-6 contact-left ">
 			<div class="horizontal-tab">
 				<ul class="nav nav-tabs">
-					<li class="active"><a href="#tab1" data-toggle="tab" aria-expanded="false">联系我</a></li>					
+					<li class="active"><a href="#tab1" data-toggle="tab" aria-expanded="false">CONTACT ME</a></li>
 				</ul>
 				<div class="tab-content">
 					<div class="tab-pane active in" id="tab1">
@@ -320,12 +320,12 @@
                                     {% if contact.url %}<a href="{{ contact.url }}" target="_blank">{{ contact.name }}:{{ contact.content }}</a>{% else %}{{ contact.name }}:{{ contact.content }}{% endif %}</span></li>
                                 {% endif %}
                                 {% endfor %}
-							</ul>			
+							</ul>
 						</div>
-					 
+
 					</div>
-					
-					
+
+
 				</div>
             </div>
 		</div>
@@ -351,9 +351,9 @@
 			containerID: 'toTop', // fading element id
 			containerHoverID: 'toTopHover', // fading element hover id
 			scrollSpeed: 1200,
-			easingType: 'linear' 
+			easingType: 'linear'
 			};
-		*/								
+		*/
 		$().UItoTop({ easingType: 'easeOutQuart' });
 		});
 	</script>
