@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from jianli.views import index, index_en
+from jianli.views import index, index_en, home_view
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', home_view, name='home_page'),
     path('cv/ch/', index, name='jianli_view'),
     path('cv/en/', index_en, name='jianli_view_en')
 ]

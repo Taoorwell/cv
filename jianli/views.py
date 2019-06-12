@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from django.shortcuts import HttpResponse
 import json
 
 
@@ -22,3 +23,9 @@ def index_en(request):
         dic[k] = v
 
     return render(request, 'jianli/index_en.html', dic)
+
+
+def home_view(request, *args, **kwargs):
+    return HttpResponse("<h1>This is Tao Orwell's Website, Welcome!!</h1>")
+
+
