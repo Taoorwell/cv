@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'fk@o^q4_ua0x20gpxwiu%talrpr!ggv=d!0td&4%vr_m^zf5go'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'localhost', '54.178.9.171', 'www.taoorwell.top']
 
