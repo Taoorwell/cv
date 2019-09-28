@@ -19,6 +19,7 @@ from jianli.views import index, index_en, home_view
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home_view, name='home_page'),
-    path('cv/ch/', index, name='jianli_view'),
+    path('cv/ch', index, name='jianli_view'),
+    path('cv/ch/1', index, name='jianli_view_1'),
     path('cv/en/', index_en, name='jianli_view_en')
 ]
