@@ -58,9 +58,15 @@ apt-get purge P
 apt-get autoremove
 
 
+update ssl
+sudo su
+systemctl stop nginx
 
+exit
+sudo letsencrypt certonly --standalone
 
-
+sudo su
+systemctl start nginx
 
 
 
